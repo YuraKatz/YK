@@ -1,0 +1,15 @@
+body {
+    background-color: #add8e6;
+}
+
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+    text-align: center
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}

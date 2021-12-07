@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Hkoshka</title>
+</head>
+
+<body>
+    <script>
+        function playcat() {
+            var audio = document.getElementById("audiocat");
+            audio.play();
+        }
+
+        function playdog() {
+            var audio = document.getElementById("audiodog");
+            audio.play();
+        }
+    </script>
+    <h1>Cat</h1>
+    <div style="text-align: center;">
+        <img src="images/koshka.jpg" onmouseover="playcat();" onclick="playdog()" />
+        <audio id="audiocat" src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_c497e4cb01.mp3?filename=cat-meow-6226.mp3"></audio>
+        <audio id="audiodog" src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_2fe49714e4.mp3?filename=dog_barking-6296.mp3"></audio>
+
+    </div>
+
+</body>
+
+</html>
