@@ -16,7 +16,6 @@
          $user  =  $_REQUEST["user"];
          
          $hashed_pwd = hash('sha256',$pwd);
-         
          // Create connection
          $conn = mysqli_connect($DB_URL, $DB_USER, $DB_PWD,$DB_NAME);
          // Check connection
