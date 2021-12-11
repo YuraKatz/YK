@@ -1,7 +1,7 @@
 <?php
   //  include("./include/params.php");
  
-include("c:/AppParams/params.php");
+  include($_ENV["MYAPP_CONFIG"]);
 $x =$_REQUEST["x"];
 $y =$_REQUEST["y"];
 $a =$_REQUEST["a"];

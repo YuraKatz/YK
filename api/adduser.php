@@ -1,5 +1,5 @@
 <?php
-include("c:/AppParams/params.php");
+   include(  getenv('MYAPP_CONFIG'));
 
 $UserName = $_REQUEST["UserName"];
 $PwdHash = $_REQUEST["PwdHash"];

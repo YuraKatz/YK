@@ -1,6 +1,6 @@
 <?php 
    session_start();
-  
+    
    ?>
 <html>
    <head>
@@ -11,7 +11,7 @@
    </head>
    <body>
       <?php
-      include("c:/AppParams/params.php");
+      include(  getenv('MYAPP_CONFIG'));
          $pwd = $_REQUEST["pwd"];
          $user  =  $_REQUEST["user"];
          
