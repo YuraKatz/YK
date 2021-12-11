@@ -1,12 +1,22 @@
 body {
-    background-color: #441492;
+    /* background-color: #c2b7d3; */
+    background-image: url('images/back.jpg');
 }
 
 h1 {
     color: rgb(239, 239, 248);
     font-family: verdana;
-    font-size: 300%;
+    font-size: 200%;
     text-align: center
+}
+
+h3 {
+    text-align: center;
+}
+
+.topic {
+    font-size: 100px;
+    text-decoration: none;
 }
 
 .center {
