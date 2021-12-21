@@ -76,7 +76,7 @@ die("Login required");
 <body>
 
 
-
+  <a href="index.html">Index</a>
 
 
     <h1>Calculator</h1>

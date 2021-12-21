@@ -5,6 +5,7 @@
       <link rel="stylesheet" type="text/css" href="main.css">
    </head>
    <body>
+   <a href="index.html">Index</a>
       <h1>Login , please</h1>
       <form method="post" action="check_login.php"  >
          <table  class="center">

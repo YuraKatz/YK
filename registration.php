@@ -47,6 +47,7 @@ if(result.status=='success')
 </script>
 
 <body>
+  <a href="index.html">Index</a>
    <h1>Registration</h1>
    <h2 style="text-align: center;">
       Please fill username and password !</h1>
