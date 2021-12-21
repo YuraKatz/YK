@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -7,53 +8,50 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 
-<style>
-
-input ,button  {
-    width: 140px;
-    margin: 5px;
-    text-align: center;
-}
-button{
-    width: 65px;
-}
-.pressed{
-    background-color:  pink;
-}
-
-
-</style>
-
-
-    <script >
-function metod(val)
-{
-    var x = document.getElementById("x").value|0;
-    var y = document.getElementById("y").value|0;
-    if(val==1)
-        {   
-         document.getElementById("z").value=x+y;
-         document.getElementById("butn1").className="pressed";
-         document.getElementById("butn2").className="";
-         
+    <style>
+        input,
+        button {
+            width: 140px;
+            margin: 5px;
+            text-align: center;
         }
-    else
-    {
-        document.getElementById("z").value=x-y;
-        document.getElementById("butn2").className="pressed";
-         document.getElementById("butn1").className="";
-    }
-}
+        
+        button {
+            width: 65px;
+        }
+        
+        .pressed {
+            background-color: pink;
+        }
+    </style>
 
+
+    <script>
+        function metod(val) {
+            var x = document.getElementById("x").value | 0;
+            var y = document.getElementById("y").value | 0;
+            if (val == 1) {
+                document.getElementById("z").value = x + y;
+                document.getElementById("butn1").className = "pressed";
+                document.getElementById("butn2").className = "";
+
+            } else {
+                document.getElementById("z").value = x - y;
+                document.getElementById("butn2").className = "pressed";
+                document.getElementById("butn1").className = "";
+            }
+        }
     </script>
 </head>
+
 <body>
     <h1>Calculator</h1>
-    <input id="x"/><br/>
-    <input id="y"/><br/>
+    <input id="x" /><br/>
+    <input id="y" /><br/>
     <button id="butn1" onclick="metod(1);">+</button>
     <button id="butn2" onclick="metod(0);">-</button><br/>
     <input id="z" />
-    
+
 </body>
+
 </html>
